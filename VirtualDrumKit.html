@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="VirtualDrumKit.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Virtual Drum Kit</title>
+  </head>
+  <body>
+
+    <main>
+
+    <div class="controlls">
+      <h1>Key controlls</h1>
+
+        <button type="button" name="button">Spacebar</button> Bass Drum
+        <button type="button" name="button">C</button> Snare Drum
+        <button type="button" name="button">S</button> Hi-hat
+        <button type="button" name="button">B</button> Floor Tom Drum
+        <button type="button" name="button">G</button> Small Tom Drum
+        <button type="button" name="button">H</button> Medium Tom Drum
+        <button type="button" name="button">R</button> Cymbal 1
+        <button type="button" name="button">T</button> Cymbal 2
+
+
+    </div>
+
+    <div class="container">
+      <img src="Images/jadedrumkit.jpg" usemap="#image-map" alt="photo of a drumkit" class="drumkit">
+        <map name="image-map">
+          <area  alt="floortom" title="floortom"  coords="272,586,156" shape="circle" class="drum" id="floortom">
+          <area  alt="bass" title="bass"  coords="554,885,239" shape="circle" class="drum" id="bass">
+          <area  alt="mediumtom" title="mediumtom" coords="516,420,136" shape="circle" class="drum" id="mediumtom">
+          <area  alt="smalltom" title="smalltom" coords="791,415,129" shape="circle" class="drum" id="smalltom">
+          <area  alt="hihat" title="hihat" coords="1141,344,127" shape="circle" class="drum" id="hihat">
+          <area  alt="cymbal1" title="cymbal1" coords="184,178,171" shape="circle" class="drum" id=cymbal1>
+          <area  alt="cymbal2" title="cymbal2" coords="995,95,94" shape="circle" class="drum" id="cymbal2">
+          <area  alt="snare" title="snare" coords="959,585,105" shape="circle" class="drum" id="snare">
+        </map>
+
+  </div>
+
+
+</main>
+
+<footer>
+<img src="Icons/copyright.png" alt="copyright icon"> Copyright Jade Hone <span id="copyright" class="copyright"></span>
+</footer>
+
+<script src="imageMapResizer.min.js" charset="utf-8"></script>
+<script src="VirtualDrumKit.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body{
+  background-color: #e8e8e6;
+  }
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+	margin:-10px 0 0 -10px;
+}
+
+.topnav a {
+  color: #cb2d62;
+  text-align: center;
+  padding: 4vw;
+  text-decoration: none;
+  font-size: 2vw;
+	font-weight: bold;
+  }
+.controlls{
+  padding-top: 1vw;
+  font-family: 'Bangers', cursive;
+}
+
+
+.container{
+  text-align: center;
+  }
+
+  .drumkit{
+    height: 40vw;
+    width:auto;
+    padding-top: 2.5vw;
+      }
+
+::selection{
+  text-shadow: none;
+}
+footer{
+	margin: 20px 0 20px 0 ;
+  text-align: center;
+}
